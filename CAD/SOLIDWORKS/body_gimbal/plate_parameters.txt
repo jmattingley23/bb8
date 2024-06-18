@@ -1,0 +1,3 @@
+﻿"stroke_width"= 4mm
+"hexagon_width" = 12mm
+"hexagon_gap" = 3mm
