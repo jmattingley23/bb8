@@ -1,0 +1,4 @@
+original dome size = 285mm
+target dome size = 292mm
+
+dome scale = 102.45
