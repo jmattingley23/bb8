@@ -17,3 +17,33 @@ destination
 -3.93485
 -142.426
 17.1862
+
+== holo ==
+
+destination
+72.9793
+-115.931
+39.076
+
+74.915
+-118.999
+39.9471
+
+== rear logic lens ==
+G X -24.5
+set origin
+R X 90
+G Y .5
+G Z .45
+set origin
+R Z -84.55
+
+== front logic lens ==
+
+G X -24.5
+set origin
+R X 90
+G Y .5
+G Z .25
+set origin
+R Z -36.25
