@@ -39,7 +39,6 @@ set origin
 R Z -84.55
 
 == front logic lens ==
-
 G X -24.5
 set origin
 R X 90
