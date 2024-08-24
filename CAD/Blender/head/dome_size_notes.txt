@@ -2,3 +2,8 @@ original dome size = 285mm
 target dome size = 292mm
 
 dome scale = 102.45
+
+design antenna magnet placement
+maybe magnets on the radar eye and holoprojector??
+brainstorm options for mounting leds to holoprojector
+brainstorm options for mounting leds to radar eye
