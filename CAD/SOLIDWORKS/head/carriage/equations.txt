@@ -1,0 +1,10 @@
+﻿"head_mount_circle_diameter"= 250mm * 1.0245
+"skirt_air_gap"= 1mm
+"caster_offset"= 10mm
+"dolly_hub_diameter"= 34mm
+"arm_width"= 12mm
+"dolly_hub_center_clearance"= 38mm
+"wall_thickness"= 2mm
+"magnet_thickness"= .375in
+"magnet_air_gap"= 1mm
+"caster_swivel_clearance"= 2mm
