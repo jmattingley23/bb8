@@ -8,3 +8,4 @@
 "magnet_thickness"= .375in
 "magnet_air_gap"= 1mm
 "caster_swivel_clearance"= 4mm
+"magnet_arm_width"= 10mm
