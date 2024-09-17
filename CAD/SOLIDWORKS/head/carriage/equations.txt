@@ -3,9 +3,8 @@
 "caster_offset"= 12mm
 "dolly_hub_diameter"= 32mm
 "dolly_leg_width"= 12mm
-"dolly_hub_center_clearance"= 38mm
+"dolly_hub_center_clearance"= 35mm
 "wall_thickness"= 2mm
 "magnet_thickness"= .25in
 "magnet_air_gap"= 1mm
 "caster_swivel_clearance"= 4mm
-"magnet_arm_width"= 10mm
