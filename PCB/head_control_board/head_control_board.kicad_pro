@@ -489,7 +489,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/USB-D+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/USB-D-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
