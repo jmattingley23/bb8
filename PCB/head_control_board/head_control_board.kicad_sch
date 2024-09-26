@@ -9282,7 +9282,7 @@
 		(at 170.18 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "144347a8-d1d3-4e02-ba27-13c7373d8fc6")
@@ -10529,7 +10529,7 @@
 		(at 228.6 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "339fdc4e-19d0-46a1-842d-90f05aabff09")
@@ -11004,7 +11004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "jmatt:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
 			(at 321.31 59.69 0)
 			(effects
 				(font
@@ -11416,7 +11416,7 @@
 		(at 170.18 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4c922a4a-8bba-43bb-89de-ab465943c0a5")
@@ -12376,7 +12376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "jmatt:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 240.03 30.48 0)
 			(effects
 				(font
@@ -13423,7 +13423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "jmatt:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
 			(at 321.31 41.91 0)
 			(effects
 				(font
@@ -13562,7 +13562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "jmatt:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
 			(at 321.31 24.13 0)
 			(effects
 				(font
@@ -15787,7 +15787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "jmatt:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 281.94 31.75 0)
 			(effects
 				(font
