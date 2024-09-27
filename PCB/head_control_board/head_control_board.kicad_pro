@@ -59,8 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|140333838|73192281|5bdb2ce7-fba7-4510-be23-e62d5c8a4417|a48d232d-552c-4951-9961-2b4ddf2aef67",
-        "hole_clearance|143258838|78258529|edc9c405-3921-4342-8aec-faea1f30923e|4446efa0-ea3a-4de6-9095-8c7d05edae27",
+        "hole_clearance|140333838|73192281|a48d232d-552c-4951-9961-2b4ddf2aef67|5bdb2ce7-fba7-4510-be23-e62d5c8a4417",
+        "hole_clearance|143258838|78258529|4446efa0-ea3a-4de6-9095-8c7d05edae27|edc9c405-3921-4342-8aec-faea1f30923e",
         "starved_thermal|119240111|90814892|4f3bead5-1630-4e23-ae8d-b96c267b19f6|fc51c297-7c2f-4c31-9aa8-7dc47767054c|F.Cu",
         "starved_thermal|120227799|90971326|56b08ad2-8532-40a9-a96f-4c3989aa0ac4|e8af2318-aa85-41b7-b404-e104c2211765|F.Cu",
         "starved_thermal|139720024|73229124|928caab8-d06b-40ab-94f8-95810ef17952|a48d232d-552c-4951-9961-2b4ddf2aef67|F.Cu",
