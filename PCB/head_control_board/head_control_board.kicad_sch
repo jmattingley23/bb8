@@ -8946,7 +8946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.172 58.42 90)
 			(effects
 				(font
@@ -8973,7 +8973,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C149504"
+		(property "LCSC Part" "C25741"
 			(at 107.95 58.42 0)
 			(effects
 				(font
@@ -9296,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 218.44 114.808 90)
 			(effects
 				(font
@@ -9323,7 +9323,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" "C25744"
 			(at 218.44 113.03 0)
 			(effects
 				(font
@@ -10590,7 +10590,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 231.394 123.19 90)
 			(effects
 				(font
@@ -10598,7 +10598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.14 123.4948 0)
 			(effects
 				(font
@@ -10625,7 +10625,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C307331"
 			(at 227.33 124.46 0)
 			(effects
 				(font
@@ -10807,7 +10807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 270.51 36.068 90)
 			(effects
 				(font
@@ -10834,7 +10834,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17802"
+		(property "LCSC Part" ""
 			(at 270.51 34.29 0)
 			(effects
 				(font
@@ -11999,7 +11999,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 187.96 30.4799 0)
 			(effects
 				(font
@@ -12008,7 +12008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 183.1848 25.4 0)
 			(effects
 				(font
@@ -12035,7 +12035,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" "C307331"
 			(at 184.15 29.21 0)
 			(effects
 				(font
@@ -12898,7 +12898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 215.9 106.6799 0)
 			(effects
 				(font
@@ -12907,7 +12907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 213.0552 109.22 0)
 			(effects
 				(font
@@ -12934,7 +12934,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C307331"
 			(at 212.09 105.41 0)
 			(effects
 				(font
@@ -13283,7 +13283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LCSC:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "LCSC:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4"
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -13310,7 +13310,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C318884"
+		(property "LCSC Part" ""
 			(at 228.6 133.35 0)
 			(effects
 				(font
@@ -14207,7 +14207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 317.5 142.748 90)
 			(effects
 				(font
@@ -14234,7 +14234,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" "C25744"
 			(at 317.5 140.97 0)
 			(effects
 				(font
@@ -15533,7 +15533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LCSC:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "LCSC:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4"
 			(at 306.07 156.21 0)
 			(effects
 				(font
@@ -15560,7 +15560,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C318884"
+		(property "LCSC Part" ""
 			(at 306.07 161.29 0)
 			(effects
 				(font
@@ -15616,7 +15616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LCSC:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "LCSC:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4"
 			(at 222.25 96.52 0)
 			(effects
 				(font
@@ -15643,7 +15643,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C318884"
+		(property "LCSC Part" ""
 			(at 222.25 101.6 0)
 			(effects
 				(font
@@ -16318,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.82 79.502 90)
 			(effects
 				(font
@@ -16345,7 +16345,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" "C25744"
 			(at 210.82 81.28 0)
 			(effects
 				(font
@@ -16386,7 +16386,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 310.134 152.4 90)
 			(effects
 				(font
@@ -16394,7 +16394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 309.88 152.7048 0)
 			(effects
 				(font
@@ -16421,7 +16421,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C307331"
 			(at 306.07 153.67 0)
 			(effects
 				(font
