@@ -39,21 +39,21 @@ destination
 39.9471
 
 == rear logic lens ==
-G X -24.5
-set origin
+G X -(half of x dimension)
+set origin to 0,0,0
 R X 90
 G Y .5
 G Z .45
-set origin
-R Z -84.55
+set origin to 0,0,0
+R Z -84.47
 
 == front logic lens ==
-G X -24.5
-set origin
+G X -(half of x dimension)
+set origin to 0,0,0
 R X 90
 G Y .5
 G Z .25
-set origin
+set origin to 0,0,0
 R Z -36.25
 
 == radar ==

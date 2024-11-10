@@ -534,7 +534,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../CAD/SOLIDWORKS/electronics/custom_PCBs/head_control_board/head_control_board.step",
       "svg": "",
       "vrml": ""
     },

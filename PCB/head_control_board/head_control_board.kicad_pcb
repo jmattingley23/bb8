@@ -12883,9 +12883,9 @@
 			(pintype "unspecified")
 			(uuid "41ce1cb5-a60e-4d28-a635-9d3eceedf4d6")
 		)
-		(model "/mnt/c/Users/jmatt/Documents/kicad/easyeda2kicad/.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/jmatt/Documents/KiCad/easyeda2kicad/.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -15327,7 +15327,7 @@
 			(uuid "3dc69ee1-e63b-4f58-902c-4c3b7bf1e185")
 		)
 		(fp_line
-			(start -0.93 0.469999)
+			(start -0.93 0.469998)
 			(end -0.93 -0.47)
 			(stroke
 				(width 0.05)
@@ -15338,7 +15338,7 @@
 		)
 		(fp_line
 			(start -0.93 -0.47)
-			(end 0.93 -0.469999)
+			(end 0.93 -0.469998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -15348,7 +15348,7 @@
 		)
 		(fp_line
 			(start 0.93 0.47)
-			(end -0.93 0.469999)
+			(end -0.93 0.469998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -15357,7 +15357,7 @@
 			(uuid "aba8350d-7cf9-4b24-aa55-f130552cb7c5")
 		)
 		(fp_line
-			(start 0.93 -0.469999)
+			(start 0.93 -0.469998)
 			(end 0.93 0.47)
 			(stroke
 				(width 0.05)
@@ -16683,7 +16683,7 @@
 			(uuid "175e8daa-eafd-4af8-9edd-9bd64209b1f6")
 		)
 		(fp_line
-			(start 0.93 -0.469999)
+			(start 0.93 -0.469998)
 			(end 0.93 0.47)
 			(stroke
 				(width 0.05)
@@ -16694,7 +16694,7 @@
 		)
 		(fp_line
 			(start 0.93 0.47)
-			(end -0.93 0.469999)
+			(end -0.93 0.469998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -16704,7 +16704,7 @@
 		)
 		(fp_line
 			(start -0.93 -0.47)
-			(end 0.93 -0.469999)
+			(end 0.93 -0.469998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -16713,7 +16713,7 @@
 			(uuid "81259380-5fb2-4e78-9041-fa4b8e9f47fe")
 		)
 		(fp_line
-			(start -0.93 0.469999)
+			(start -0.93 0.469998)
 			(end -0.93 -0.47)
 			(stroke
 				(width 0.05)
