@@ -19,9 +19,14 @@ CRGB holo_leds[8];
 CRGB logic_leds[56];
 
 uint8_t brightness = 255;
+bool psi_on = false;
+bool holoprojector_on = false;
+bool holoprojector_pressed = false; //TODO probably a better way to do this that doesnt involve having the receiver monitor button state (better rising edge detection)
 
 void setStatusLed(CRGB color);
 void setLogicLeds();
+void setPSI();
+void setHoloprojector();
 
 void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
     struct_message_payload message_payload;
@@ -32,12 +37,29 @@ void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
     Serial.print(message_payload.psi);
     Serial.print(" Holo: ");
     Serial.println(message_payload.holoprojector);
+
     last_recv_millis = millis();
     setStatusLed(CRGB::Green);
+
     message_payload.brightness = map(message_payload.brightness, 0, 255, 35, 255); //brightness values under 35 look weird and flickery
     if(brightness != message_payload.brightness) {
         brightness = message_payload.brightness;
         setLogicLeds();
+        setPSI();
+    }
+
+    if(psi_on != message_payload.psi) {
+        psi_on = message_payload.psi;
+        setPSI();
+    }
+
+    if(!message_payload.holoprojector) {
+        holoprojector_pressed = false;
+    }
+    if(message_payload.holoprojector && !holoprojector_pressed) {
+        holoprojector_pressed = true;
+        holoprojector_on = !holoprojector_on;
+        setHoloprojector();
     }
 }
 
@@ -68,11 +90,40 @@ void setup() {
 void loop() {
     if((millis() - last_recv_millis) > 1000){
         setStatusLed(CRGB::Red);
+        psi_on = false;
+        holoprojector_on = false;
+        setLogicLeds();
+        setPSI();
+        setHoloprojector();
     }
 }
 
 void setStatusLed(CRGB color) {
     status_led[0] = color;
+    nscale8(&status_led[0], 1, dim8_raw(125));
+    FastLED.show();
+}
+
+void setPSI() {
+    for(int i = 0; i < 4; i++) {
+        if(psi_on) {
+            psi_leds[i] = CRGB::White;
+        } else {
+            psi_leds[i] = CRGB::Black;
+        }
+    }
+    nscale8(&psi_leds[0], 4, dim8_raw(brightness)); //scale brightness with gamma correction and dithering
+    FastLED.show();
+}
+
+void setHoloprojector() {
+    for(int i = 0; i < 7; i++) {
+        if(holoprojector_on) {
+            holo_leds[i] = CRGB::White;
+        } else {
+            holo_leds[i] = CRGB::Black;
+        }
+    }
     FastLED.show();
 }
 
