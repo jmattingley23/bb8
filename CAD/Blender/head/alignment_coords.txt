@@ -45,7 +45,7 @@ R X 90
 G Y .5
 G Z .45
 set origin to 0,0,0
-R Z -84.47
+R Z -84.41
 
 == front logic lens ==
 G X -(half of x dimension)
