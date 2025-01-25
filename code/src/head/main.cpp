@@ -131,13 +131,13 @@ void setLogicLeds() {
     // front logic top
     for(int i = 0; i < 12; i++){
         // logic_leds[i] = CRGB::White;
-        logic_leds[i] = CRGB(255, 255, 255);
+        logic_leds[i] = CRGB(205, 205, 255);
     }
 
-    // // front logic bottom
-    // for(int i = 22; i < 34; i++){
-    //     logic_leds[i] = CRGB::White;
-    // }
+    // front logic bottom
+    for(int i = 22; i < 34; i++){
+        logic_leds[i] = CRGB::White;
+    }
 
     // rear logic
     for(int i = 46; i < 56; i++){
